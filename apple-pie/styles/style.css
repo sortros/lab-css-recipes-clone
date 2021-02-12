@@ -1,0 +1,93 @@
+/*--------Reset style-------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+font-size:20px;
+font-weight:300;
+}
+/*--------Fi reset ------------*/
+h1, h2, p, li {
+    font-family: "Roboto" , sans-serif;
+}
+
+h1{
+    font-size:5em;
+    text-align:center;
+    color: white;
+}
+h2{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+p{
+    font-size: 1em;
+    box-sizing: content-box;
+}
+
+hr{
+    width:60%; 
+}
+
+.section1{
+    background-image: url("../images/apple-pie.jpg");
+    background-position:(0,0);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:500px;
+    padding:250px 0px 0px 0px;
+}
+
+.section2, .section3, .section4, img{
+    padding-top: 50px;
+}
+
+.section2, .section3, .section4 div {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.section4{
+    padding-bottom: 70px;
+}
+
+.section4 p{
+    padding-left: 20px;
+}
+
